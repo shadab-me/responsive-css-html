@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+ }
+a{
+	text-decoration: none;
+}
+/* typography */
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 24px;
+}
+p{
+	font-size: 18px;
+}
+header{
+	background-color: #222946;
+ }
+/* flex */
+
+.flex{
+	display: flex;
+	
+}
+.flex-between{
+	display: flex;
+	justify-content: space-between;
+}
+.align-center{
+	align-items: center;
+}
+
+/* navigation */
+header{
+	padding: 5px 0;
+}
+.logo{
+	padding: 15px;
+	color: white;
+}
+.highlight{
+	color: red;
+}
+.nav li{
+padding: 15px;
+padding-left: 35px;
+}
+.nav li a {
+	color: white;
+	font-weight: 700;
+}
+
+
+.active{
+	color: rgb(199, 155, 74);
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* main */
+main{
+	background-color:#E9ECFC;
+	padding: 66px 0;
+}
+.col-1{
+	width: 48%;
+	line-height: 1.5;
+}
+.col-1 h1{
+	font-weight: 700;
+}
+.col-1 p{
+	margin-bottom: 10px;
+}
+
+.section-heading{
+	text-align: center;
+	font-weight: 700;
+	padding:66px 0; 
+}
+
+.col-2{
+ 	width: 30%;
+}
+.col-2 img{
+	width: 100%;
+	height: 220px;
+}
+.col-2 p{
+   width: 100%;
+   margin-bottom: 10px;
+}
+.col-2 h2{
+	font-weight: 700;
+}
+
+.btn{
+	background-color:#37B667;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px;
+ }
+ footer{
+	 background-color: #222946;
+	 color: white;
+	 margin-top: 25px;
+ }
+ footer ul li {
+	  padding: 15px;
+	  
+ }
+ .footer-logo{
+	 padding: 15px;
+ }
+ .footer a{
+	 text-decoration: none;
+	 color: white;
+	 background-color: white;
+ }
+
+ @media screen and (max-width: 768px){
+	  
+	body{
+		max-width: 768px;
+  	}
+	   header{
+		   display: none;
+		   flex-direction: column;
+		   justify-content: cen
+	   }
+	   .col-1{
+		   flex: 0 1 100%;
+		   margin: 10px 20px;
+		}
+		.col-1 img{
+			width: 100%;
+		}
+		.col-2{
+			flex: 0 1 100%;
+			margin: 10px 20px;
+ 		}
+		.col-2 img{
+			width: 100%;
+			height: 320px
+		}
+		footer{
+			justify-items: center;
+			flex-direction: column;
+ 		}
+		.social-connect a{
+			text-align: center;
+		}
+ }
