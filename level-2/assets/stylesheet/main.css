@@ -46,6 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Lobster', cursive;
     font-size: 16px;
@@ -165,4 +173,10 @@ h3{
 }
 .news article {
     margin-left: 20px;
+}
+
+.news article p {
+    margin-bottom: 25px;
+    color: #6C6B72;
+    
 }
