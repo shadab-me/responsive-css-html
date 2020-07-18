@@ -153,5 +153,16 @@ h3{
     color: #6C6B73;
 }
 
+.news{
+    margin: 66px 0
+}
  
+.news h1{
+    text-align: center;
+    padding: 42px 0;
+    text-transform: uppercase;
 
+}
+.news article {
+    margin-left: 20px;
+}
