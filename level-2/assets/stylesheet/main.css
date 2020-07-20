@@ -87,7 +87,9 @@ h3{
     width: 80%;
     margin: 0 auto;
 }
-
+.center {
+    text-align: center;
+}
 .nav-item{
     padding: 10px 35px;
     margin-top: 15px;
@@ -141,15 +143,22 @@ h3{
      text-transform: uppercase;
  }
 
+ .number-box {
+    padding: 0 1.5rem;
+    background-color: #F9234D;
+    background-color: #DFECFF;
+    position: absolute;
+    top: -15px;
+    left: 50px;
+}
  .events{
      background-color: #DFECFF;
      padding: 66px 0;
     }
-.col-3-1,
-.col-3-2,
-.col-3-3{
+.box{
     margin-left: 30px;
-    border: 2px dotted red;
+    border: 3px dotted #F9234D;
+    position: relative;
     padding: 15px 5px 5px 5px;
     
 }
@@ -171,6 +180,125 @@ h3{
     text-transform: uppercase;
 
 }
+
+/* schules */
+
+.schedules {
+    position: relative;
+}
+
+.event-date {
+    flex: 0 1 auto;
+    justify-content: center;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px dashed var(--primary-color);
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.event-feature-img {
+    flex: 0 1 18%;
+}
+
+.event-text {
+    flex: 0 1 52%;
+}
+
+.event-feature-img img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #F9234D;
+    color: #fff!important;
+}
+
+time {
+    display: inline-block;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #23347B;
+}
+
+.current-active {
+    color: #fff!important;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px dashed #F9234D;
+    position: absolute;
+    top: 10%;
+    left: 80px;
+    width: 700px;
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+
+.event-text p {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.our-feature {
+    background-color: #23347B;
+}
+
+.feature-icon {
+    width: 30%;
+}
+
+.feature h5 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.feature p {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.watch-video {
+    position: relative;
+}
+
+.watch-video img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.play-btn {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fa-play {
+    color: #F9234D;
+    font-size: 48px;
+    padding: 2.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
 .news article {
     margin-left: 20px;
 }
