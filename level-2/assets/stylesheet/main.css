@@ -180,3 +180,13 @@ h3{
     color: #6C6B72;
     
 }
+.footer{
+    background-color: #23347B;
+}
+.col-4-1{
+    padding: 66px;
+}
+.col-4-1 h3{
+    padding: 5px 35px;
+    color: white;
+}
